@@ -9,23 +9,6 @@ Mastertronic.
 mid-1980s. It is a single-player, multi-screen horror platformer built around
 five themed areas: the forest, cinema, ghetto, graveyard, and haunted house.
 
-The game casts the player as a hero trying to rescue his girlfriend from the
-House of the Undead. Progression is based around collecting magic crosses while
-avoiding energy-draining enemies such as ghouls, bats, ghosts, and zombies.
-Mushrooms can restore energy, but some are poisonous. The original C64 controls
-use joystick port 2, or keyboard controls with `Z` for left, `C` for right, and
-`Shift` for jump.
-
-This project is for the Mastertronic C64 platform game, not the unrelated Exidy
-light-gun game also called Chiller.
-
-Useful references:
-
-- [Lemon64 game entry](https://www.lemon64.com/game/chiller)
-- [Lemon64 manual text](https://www.lemon64.com/doc/chiller/139)
-- [Mastertronic Collectors Archive review](https://mastertronic.co.uk/game-review-chiller-commodore-64-mastertronic/)
-- [Games That Weren't: Chiller V1](https://www.gamesthatwerent.com/gtw64/chiller-v1/)
-
 ## About This Project
 
 This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with the current tested gameplay changes:

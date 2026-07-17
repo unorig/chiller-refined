@@ -24,6 +24,7 @@ Player-visible changes include:
 - The correct left/right jump sprite is used when changing direction in the air.
 - Collecting a magic cross during a jump no longer interrupts the jump.
 - Rope climbing feels smoother and less like repeated jumps.
+- The bottom skeleton runner now uses a rising hand animation.
 
 The aim is not to remake Chiller into a different game. The intent is to keep
 the original look, structure, and atmosphere while making the game feel a little

@@ -3,7 +3,7 @@
 Gameplay refinement project for the Commodore 64 version of **Chiller** by
 Mastertronic.
 
-## About The Original Game
+## About the Original Game
 
 **Chiller** is a budget C64 platform game published by Mastertronic in the
 mid-1980s. It is a single-player, multi-screen horror platformer built around
@@ -11,7 +11,11 @@ five themed areas: the forest, cinema, ghetto, graveyard, and haunted house.
 
 ## About This Project
 
-This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with the current tested gameplay changes:
+Chiller Refined is a playable update to `Chiller (1985)(Mastertronic)` that
+keeps the original game intact while smoothing out some of its rougher movement
+and collision behavior.
+
+Player-visible changes include:
 
 - Jumping no longer plays the repetitive jump sound.
 - Jumping has a cleaner arc with less hang time at the top.
@@ -22,9 +26,8 @@ This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with th
 - Rope climbing feels smoother and less like repeated jumps.
 
 The aim is not to remake Chiller into a different game. The intent is to keep
-the original look, structure, and atmosphere while refining rough edges in the
-movement, collision, and level feel. Future changes may include map tweaks,
-enemy behavior improvements, and further quality-of-life fixes.
+the original look, structure, and atmosphere while making the game feel a little
+fairer and more responsive to play.
 
 ## Folder Layout
 

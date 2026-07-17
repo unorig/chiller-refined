@@ -15,7 +15,6 @@ Current rebuilt PRG:
 - Added double jump.
 - Tuned jump timing to remove the long pause at the top of the arc.
 - Preserved correct facing/jump sprites when changing direction in the air.
-- Made falling use the jump-style pose rather than cycling walk frames.
 - Fixed magic cross collection so collecting a cross mid-jump continues normal movement.
 - Changed rope climbing so UP while touching a rope uses a dedicated climb path
   and the normal upward animation rather than the original jump-like rope motion.

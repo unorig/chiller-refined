@@ -35,7 +35,6 @@ This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with th
 - The player can steer left and right while jumping or falling.
 - A second jump can be triggered while airborne.
 - The correct left/right jump sprite is used when changing direction in the air.
-- Falling keeps a stable jump-style pose instead of cycling through walk frames.
 - Collecting a magic cross during a jump no longer interrupts the jump.
 - Rope climbing feels smoother and less like repeated jumps.
 

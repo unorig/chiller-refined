@@ -73,13 +73,3 @@ The rebuilt PRG should be `63489` bytes.
 ```sh
 tools/launch_vice.sh
 ```
-
-## GitHub Note
-
-Be careful publishing the rebuilt PRG or extracted `.bin` assets publicly unless you are sure you have the right to redistribute the original game content. A safer public GitHub release is often:
-
-- source notes,
-- patch/diff files,
-- build instructions,
-- screenshots,
-- and a release description explaining that users need their own original copy.

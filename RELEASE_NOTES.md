@@ -19,7 +19,6 @@ Local rebuilt PRG:
 - Fixed magic cross collection so collecting a cross mid-jump continues normal movement.
 - Changed rope climbing so UP while touching a rope uses a dedicated climb path
   and the normal upward animation rather than the original jump-like rope motion.
-- Replaced the bottom skeleton runner frames with a rising skeleton hand animation.
 - Moved rope helper code out of `$5300` and restored the original routine there, fixing vertical enemy movement wrapping.
 
 ## Movement Details

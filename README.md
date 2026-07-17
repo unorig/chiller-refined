@@ -30,14 +30,15 @@ Useful references:
 
 This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with the current tested gameplay changes:
 
-- Jump sound removed.
-- Faster, cleaner jump arc.
-- Horizontal air control while jumping/falling.
-- Double jump.
-- Jump/fall sprite direction fixes.
-- Magic cross collection no longer cancels the jump arc.
-- Smoother rope climbing.
-- Restored vertical enemy movement routine after the rope helper was moved out of `$5300`.
+- Jumping no longer plays the repetitive jump sound.
+- Jumping has a cleaner arc with less hang time at the top.
+- The player can steer left and right while jumping or falling.
+- A second jump can be triggered while airborne.
+- The correct left/right jump sprite is used when changing direction in the air.
+- Falling keeps a stable jump-style pose instead of cycling through walk frames.
+- Collecting a magic cross during a jump no longer interrupts the jump.
+- Rope climbing feels smoother and less like repeated jumps.
+- Vertically moving enemies stay within their intended movement area.
 
 The aim is not to remake Chiller into a different game. The intent is to keep
 the original look, structure, and atmosphere while refining rough edges in the

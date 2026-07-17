@@ -6,7 +6,7 @@
 ; color changes, patches the STOP-key vector, routes border color by game state,
 ; and initializes magic-cross display state.
 ;
-.binary "../../chiller_refined_asset_7300_757f_menu_irq.bin"
+.binary "../assets/chiller_refined_asset_7300_757f_menu_irq.bin"
 ; Read CIA joystick byte ($C9F1), compare with $40; toggle $D022 or $D023
 ; (background color registers) based on result.
 bg_color_toggle     jsr s_increment_watermark ; x-ref: $776d

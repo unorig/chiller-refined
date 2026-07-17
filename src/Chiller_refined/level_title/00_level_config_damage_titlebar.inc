@@ -6,7 +6,7 @@
 ; lookup, all-RAM block copying, damage border flash timing, and top-row title
 ; character/color setup.
 ;
-.binary "../../chiller_refined_asset_61f2_727f_music_level_data.bin"
+.binary "../assets/chiller_refined_asset_61f2_727f_music_level_data.bin"
 ; ====================================================
 ;    LEVEL CONFIGURATION AND SCREEN INTRO TEXT
 ; ====================================================

@@ -34,7 +34,7 @@ fairer and more responsive to play.
 - `dist/Chiller Refined.prg` - current rebuilt PRG.
 - `src/Chiller Refined.asm` - main 64tass entry point.
 - `src/Chiller_refined/` - modular source tree.
-- `src/chiller_refined_asset_*.bin` - extracted binary asset blocks required by the source includes.
+- `src/Chiller_refined/assets/` - extracted binary asset blocks required by the source includes.
 - `tools/build.sh` - rebuilds the PRG into `dist/`.
 - `tools/launch_vice.sh` - launches the PRG in VICE C64SC with sound disabled.
 

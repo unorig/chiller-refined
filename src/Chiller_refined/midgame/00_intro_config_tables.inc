@@ -6,7 +6,7 @@
 ; text and compact tables used by player collision, enemies, animation timing,
 ; level setup, sprite priority, SID voice presets, and respawn behavior.
 ;
-.binary "../../chiller_refined_asset_3000_40ff_tables.bin"
+.binary "../assets/chiller_refined_asset_3000_40ff_tables.bin"
                     .encode 
                     .enc "none"
 ; Forest intro (short): 'MOVE THE BOY AROUND THE FOREST COLLECTING THE BLUE MAGIC CROSSES.'

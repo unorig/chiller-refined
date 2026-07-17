@@ -6,7 +6,7 @@
 ; detection, level scroll tick, the game_loop_tick IRQ body, and the large
 ; external level graphics/map/charset assets.
 ;
-.binary "../../chiller_refined_asset_7800_7bff_title_text.bin"
+.binary "../assets/chiller_refined_asset_7800_7bff_title_text.bin"
                     .encode 
                     .enc "none"
 ; Main game intro/instructions text ($7C00-$7CBF):
@@ -18,7 +18,7 @@ game_intro_text     .text $0f, $04, $12, $05, "WELCOME TO THE GAME OF CHILLER.",
                     .text "    USE THE KEYS Z, C, ? AND SHIFT,", $0d, $12, $11, "  "
                     .text "     OR A JOYSTICK IN PORT TWO.", $01
                     .endencode 
-.binary "../../chiller_refined_asset_7cc0_7ef0_sprite_position_data.bin"
+.binary "../assets/chiller_refined_asset_7cc0_7ef0_sprite_position_data.bin"
 ; Store A into a_7EF0, then update bit 0 of $D010 (Sprite 0 X MSB) to match A.
 set_sprite0_xmsb    sta a_7EF0           ; x-ref: $7f31
                     lda $d010            ; Sprites 0-7 MSB of X coordinate
@@ -144,9 +144,9 @@ f_7FE8              .byte $00            ; x-ref: $7687
 f_7FE9              .byte $78, $00, $e0, $00, $e4, $00, $e8, $00 ; x-ref: $768d
                     .byte $ec, $00, $00, $00, $00, $00, $00, $4e
                     .byte $3a, $41, $49, $50, $2c, $44, $24
-.binary "../../chiller_refined_asset_8000_a7ad_level_graphics.bin"
+.binary "../assets/chiller_refined_asset_8000_a7ad_level_graphics.bin"
 j_A7AE              .byte $ff            ; x-ref: $fff4; Invalid or partial instruction
                     .byte $ff            ; Invalid or partial instruction
                     .byte $b9            ; Invalid or partial instruction
-.binary "../../chiller_refined_asset_a7b1_bfff_background_graphics.bin"
+.binary "../assets/chiller_refined_asset_a7b1_bfff_background_graphics.bin"
 ; ====================================================

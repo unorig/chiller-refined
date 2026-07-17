@@ -21,7 +21,7 @@
                     .byte $16, $08, $40, $00, $9e, $32, $30, $37
                     .byte $32, $20, $28, $41, $4e, $54, $49, $53
                     .byte $4f, $46, $54, $29, $00, $00, $00
-; === Chiller (1985) by Mastertronic ===
+; === Chiller ===
 ; C64 platformer. Play as Boy or Girl character through 4 maps.
 ; Collect items (mushrooms, red flowers, baskets) and magic crosses.
 ; Manage health bar. Slide on ropes. Avoid or jump on enemies.

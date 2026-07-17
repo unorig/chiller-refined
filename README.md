@@ -11,9 +11,9 @@ five themed areas: the forest, cinema, ghetto, graveyard, and haunted house.
 
 ## About This Project
 
-Chiller Refined is a playable update to `Chiller (1985)(Mastertronic)` that
-keeps the original game intact while smoothing out some of its rougher movement
-and collision behavior.
+Chiller Refined is a playable update to **Chiller** that keeps the original
+game intact while smoothing out some of its rougher movement and collision
+behavior.
 
 Player-visible changes include:
 

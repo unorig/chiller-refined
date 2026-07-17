@@ -4,7 +4,7 @@
 ; https://github.com/ricardoquesada/regenerator2000
 ;
 ; Assemble with:
-;   64tass -o Chiller (1985)(Mastertronic).prg Chiller (1985)(Mastertronic).asm
+;   64tass -o "Chiller Refined.prg" "../Chiller Refined.asm"
 ;
 ;=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 ; EXTERNAL LABELS

@@ -3,7 +3,7 @@
 ;==============================================================================
 ;
 ; Buildable source entrypoint for Chiller Refined, a gameplay-focused refinement
-; of Chiller (1985)(Mastertronic).
+; of Chiller.
 ;
 ; Goals:
 ;   - keep the project navigable by subsystem / memory region

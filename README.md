@@ -36,9 +36,7 @@ This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with th
 - Double jump.
 - Jump/fall sprite direction fixes.
 - Magic cross collection no longer cancels the jump arc.
-- Rope climbing changed so pressing UP while on a rope uses a dedicated climb
-  path with the normal upward animation, instead of feeling like repeated jumps
-  on the rope.
+- Smoother rope climbing.
 - Restored vertical enemy movement routine after the rope helper was moved out of `$5300`.
 
 The aim is not to remake Chiller into a different game. The intent is to keep

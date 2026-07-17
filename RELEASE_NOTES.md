@@ -14,7 +14,7 @@ Local rebuilt PRG:
 - Removed the jump sound effect.
 - Added modern-style horizontal air control.
 - Added double jump.
-- Tuned jump timing to remove the long pause at the top of the arc.
+- Adjusted jump timing.
 - Preserved correct facing/jump sprites when changing direction in the air.
 - Fixed magic cross collection so collecting a cross mid-jump continues normal movement.
 - Changed rope climbing so UP while touching a rope uses a dedicated climb path

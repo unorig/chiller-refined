@@ -18,7 +18,7 @@ behavior.
 Player-visible changes include:
 
 - Jumping no longer plays the repetitive jump sound.
-- Jumping has a cleaner arc with less hang time at the top.
+- Jumping has been adjusted.
 - The player can steer left and right while jumping or falling.
 - A second jump can be triggered while airborne.
 - The correct left/right jump sprite is used when changing direction in the air.

@@ -31,11 +31,10 @@ fairer and more responsive to play.
 
 ## Folder Layout
 
-- `dist/Chiller Refined.prg` - current rebuilt PRG.
 - `src/Chiller Refined.asm` - main 64tass entry point.
 - `src/Chiller_refined/` - modular source tree.
 - `src/Chiller_refined/assets/` - extracted binary asset blocks required by the source includes.
-- `tools/build.sh` - rebuilds the PRG into `dist/`.
+- `tools/build.sh` - rebuilds the PRG locally into `dist/`.
 - `tools/launch_vice.sh` - launches the PRG in VICE C64SC with sound disabled.
 
 ## Build
@@ -52,7 +51,9 @@ Expected output:
 Data:      63487   $0801-$ffff   $f7ff
 ```
 
-The rebuilt PRG should be `63489` bytes.
+The rebuilt PRG is written to `dist/Chiller Refined.prg` and should be `63489`
+bytes. Generated PRG files are local build outputs and are not tracked in this
+repo.
 
 ## Test In VICE
 

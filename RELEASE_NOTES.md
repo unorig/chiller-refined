@@ -2,11 +2,12 @@
 
 ## Chiller Refined - Working Build
 
-Current rebuilt PRG:
+Local rebuilt PRG:
 
-- `dist/Chiller Refined.prg`
+- Output path: `dist/Chiller Refined.prg`
 - Size: `63489` bytes
 - Load/data range: `$0801-$FFFF`
+- The rebuilt PRG is a local build output and is not published in this repo.
 
 ## Gameplay Changes
 

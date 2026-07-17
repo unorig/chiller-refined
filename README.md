@@ -38,7 +38,6 @@ This is a buildable modded disassembly of `Chiller (1985)(Mastertronic)` with th
 - Falling keeps a stable jump-style pose instead of cycling through walk frames.
 - Collecting a magic cross during a jump no longer interrupts the jump.
 - Rope climbing feels smoother and less like repeated jumps.
-- Vertically moving enemies stay within their intended movement area.
 
 The aim is not to remake Chiller into a different game. The intent is to keep
 the original look, structure, and atmosphere while refining rough edges in the
